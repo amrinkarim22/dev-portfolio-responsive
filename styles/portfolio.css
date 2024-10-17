@@ -263,6 +263,24 @@ footer{
     border: 0;
     width: 100%;
 }
+/* responsive layout styles */
+/* mobile devices */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+   
+    .skills-container{
+      flex-direction: column;
+    }
+     
+      #what-I-do{
+        padding: 20px;
+        text-align: center;
+      }
+} 
 
 
 
