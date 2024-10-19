@@ -271,8 +271,13 @@ footer{
 }
 
 @media screen and (max-width:576px) {
-   
-    .skills-container, .resume-container, footer{
+     .header{
+        background-image: none;
+     }
+
+
+
+    .skills-container, .resume-container, footer, .about-info-container, .banner, nav, nav > ul{
       flex-direction: column;
     }
      
@@ -280,7 +285,7 @@ footer{
         padding: 20px;
         text-align: center;
     }
-    footer{
+    footer, .about, {
         padding: 20px;
     }
     .footer-column{
@@ -288,7 +293,24 @@ footer{
     }
     .contact input[type="text"], input[type="email"], textarea{
         width: 80%;
-    } 
+    }
+    .banner{
+        padding: 20px;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .primary-button{
+        margin-bottom: 20px;
+    }
+    nav{
+        margin-left: 30px;
+    }
+    nav > ul{
+        gap: 10px;
+    }
+
+
     
 } 
 
